@@ -1,0 +1,41 @@
+nav {
+	background-color: black;
+
+}
+
+nav a {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21.94px;
+	text-align: center;
+
+}
+
+header {
+
+	background-image: url(./images/image2.jpg);
+	background-size: cover;
+	background-position: center  ;
+
+	/* filter: blur(8px);
+  	-webkit-filter: blur(8px);*/
+
+}
+
+body{
+	background-color: grey;
+}
+
+/* Custom CSS to control carousel image size */
+.carousel-inner img {
+    height: 500px; /* Set desired height */    width: 5px;
+    object-fit: contain;  /* Ensures the image fills the area without distortion */
+}
+
+
+#carousel {
+	background-color: burlywood;
+}
+
+
